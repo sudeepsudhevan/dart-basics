@@ -1,7 +1,8 @@
-import 'dart:io';
-
 void main() {
-  stdout.writeln('What is your name?');
-  String name = stdin.readLineSync()!;
-  print('My name is $name');
+  int number = 10;
+  if (number > 0) {
+    print("number is positive");
+  } else {
+    print("number is negative");
+  }
 }
