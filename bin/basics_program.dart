@@ -29,9 +29,24 @@ void main() {
 //   print(nestedList[0][1]);
 
 //set
-  List<int> numberlist = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]; // fixed length list
-  print(numberlist);
-  Set<int> numberSet = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}; //set
-  //it will remove the duplicate elements
-  print(numberSet);
+  // List<int> numberlist = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]; // fixed length list
+  // print(numberlist);
+  // Set<int> numberSet = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}; //set
+  // //it will remove the duplicate elements
+  // print(numberSet);
+
+  Map<String, int> countryDialingCode = {
+    //map is a key value pair
+    'USA': 1,
+    'India': 91,
+    'Nepal': 977,
+    'Bhutan': 975,
+    'Japan': 81
+  };
+  print(countryDialingCode);
+  var map = {'name': 'sudhanshu', 'age': 21, 'height': 5.8};
+  print(map);
+  print(map['name']); //accessing the value of the key
+  print(map.keys);
+//duplicate keys are not allowed
 }
