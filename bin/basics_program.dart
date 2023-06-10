@@ -1,18 +1,12 @@
 import 'dart:io';
 
 void main() {
-  // print('Enter a number');
-  // var number = int.parse(stdin.readLineSync()!);
-
-  // if (number > 0) {
-  //   print("$number is positive");
-  // } else if (number == 0) {
-  //   print("$number is zero");
-  // } else {
-  //   print("$number is negative");
-  // }
-  for (var i = 0; i < 10; i++) {
-    //for loop
-    print(i);
+  List<int> numberlist = [12, 34, 56, 75]; // fixed length list
+  var array = [12, 'sudo', 82.25, 2]; // dynamic array
+  print(numberlist.length);
+  if (numberlist.contains(11)) {
+    print('no. is in the list');
+  } else {
+    print('no. is not in the list');
   }
 }
