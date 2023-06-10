@@ -16,7 +16,15 @@ void main() {
   numberlist.removeAt(2); // remove element from the given index
   numberlist.removeLast(); // remove last element from the list
   numberlist.addAll(listToadd); // add all the elements of the list
-  print(
-      numberlist.join('*')); // join the elements of the list with given symbol
-  print(numberlist.reversed); // reverse the list
+  // print(
+  //     numberlist.join('*')); // join the elements of the list with given symbol
+  // print(numberlist.reversed); // reverse the list
+
+// nested array
+
+  List<List<int>> nestedList = [
+    [1, 2, 3],
+    [4, 5, 6]
+  ];
+  print(nestedList[0][1]);
 }
